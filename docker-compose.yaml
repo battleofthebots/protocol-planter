@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  battlebot_protocol_planter:
+    build: .
+    hostname: "battlebot_protocol_planter"
+    ports:
+      - '13942:13942'
+    expose:
+      - '13942'
+
+
+#volumes:
+#  database:

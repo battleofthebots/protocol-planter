@@ -1,0 +1,1 @@
+x-terminal-emulator -e nc -lvnp 9001 & (sleep 3 && python3 solution.py $1 $2)
